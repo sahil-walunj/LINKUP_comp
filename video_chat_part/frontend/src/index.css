@@ -1,0 +1,27 @@
+@import "tailwindcss";
+/* ===== Custom Scrollbar for Whole Site ===== */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1f2937; /* Tailwind gray-800 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #4b5563; /* Tailwind gray-700 */
+    border-radius: 10px;
+    border: 2px solid #1f2937; /* for spacing effect */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b7280; /* Tailwind gray-500 */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #4b5563 #1f2937;
+  }
+  
