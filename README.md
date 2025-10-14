@@ -38,7 +38,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/LinkUp.git
+git clone https://github.com/sahil-walunj/LinkUp.git
 
 # Navigate into the project
 cd LinkUp
